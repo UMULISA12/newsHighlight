@@ -1,4 +1,4 @@
-NEWS_API_KEY = 'da0cfd75222c442d9a93bf4dab086829'
+NEWS_API_KEY = '908aa2def4ba4095ab935b052c76c0a6'
 
 class Config:
     '''
