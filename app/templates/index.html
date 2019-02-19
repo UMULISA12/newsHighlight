@@ -9,12 +9,11 @@
         <title> {{ title }}</title>
         {% else %}
         <title> Welcome to the Breaking news updates </title>
-        {% endif %}
-           <!-- Styles block -->
-
+        {% endif %} 
+ <!-- Styles block -->
 {% block styles%}
 {{ super() }}
-<link rel="stylesheet" href="{{url_for('static',filename='css/index.css')}}">
+<link rel="stylesheet" href="{{url_for('static',filename='CSS/index.css')}}">
 {% endblock %}
 <!-- Content block -->
 </head>

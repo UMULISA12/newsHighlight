@@ -20,7 +20,7 @@ def index():
     entertainment_sources = get_sources('entertainment')
     health_sources = get_sources('health')
 
-    title = 'Home-Welcome to news highlight'
+    title = 'Home-Welcome to the Breaking news updates'
     return render_template('index.html', title = title,general = general_sources, business= business_sources,sports=sports_sources,technology=technology_sources,science=sciences_sources,entertainment=entertainment_sources,health=health_sources)
 
 
