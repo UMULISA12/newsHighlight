@@ -1,7 +1,10 @@
 body{
-    background-color: rgb(124, 186, 240);
+    background-image: url("https://www.worshipbackgroundsforfree.com/wp-content/uploads/2012/12/Screen-Shot-2012-12-20-at-11.14.22-AM.png");
+    /* background-repeat: no-repeat; */
+    background-size: contain;
 }
 
 .header{
     text-align: center;
+    border: 2px solid beige;
 }
