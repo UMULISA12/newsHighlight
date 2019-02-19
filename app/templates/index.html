@@ -1,0 +1,79 @@
+
+{% extends 'base.html'%}
+{% import 'macros.html' as macro%}
+
+<!DOCTYPE html>
+<html>
+<head>
+    {% if title %}
+        <title> {{ title }}</title>
+        {% else %}
+        <title> Welcome to the Breaking news updates </title>
+        {% endif %}
+</head>
+<body>
+    <div class="jumbotron">
+        <h1>News Highlight</h1>
+        <h3>{{title}}</h3>
+    </div>
+   {% block content %}
+
+  <div class="container-fluid">
+      <div class="row">
+          <div class="col-md-12 heading">
+              <h1>News Highlights</h1>
+          </div>
+      </div>
+      
+      <div class="row up">
+          <div class="col-md-12 categories">
+              <h2>General News</h2>
+          </div>
+          {{macro.displaySources(general)}}
+      </div>
+      
+      <div class="row up" >
+          <div class="col-md-12 categories">
+              <h2 >Business News</h2>
+          </div>
+          {{macro.displaySources(business)}}
+      </div>
+      
+      <div class="row up">
+          <div class="col-md-12 categories">
+              <h2>Entertainment News</h2>
+          </div>
+          {{macro.displaySources(entertainment)}}
+      </div>
+      
+      <div class="row up">
+          <div class="col-md-12 categories">
+              <h2>Sports News</h2>
+          </div>
+          {{macro.displaySources(sports)}}
+      </div>
+      
+      <div class="row up">
+          <div class="col-md-12 categories">
+              <h2>Technology news</h2>
+          </div>
+          {{macro.displaySources(technology)}}
+      </div>
+      
+      <div class="row up">
+          <div class="col-md-12 categories">
+              <h2>Sciences news</h2>
+          </div>
+          {{macro.displaySources(science)}}
+      </div>
+  
+      <div class="row up">
+          <div class="col-md-12 categories">
+              <h2>Health news</h2>
+          </div>
+          {{macro.displaySources(health)}}
+      </div>
+  </div>
+  {% endblock%}   
+</body>
+</html>
