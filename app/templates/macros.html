@@ -4,17 +4,17 @@
         <li>{{sources.name}}</li> -->
     <!-- {% endfor %}
 {% endmacro %} --> 
-{% macro displaySources(reads) %} 
-{% for read in reads %}
+{% macro displaySources(cats) %} 
+{% for cat in cats %}
 <div class="col-md-3 single-source">
     <div class="row">
         <div class="col-md-4 source-name">
-            <a href>{{read.name}}</a>
+            <a href>{{cat.name}}</a>
         </div>
         <div class="col-md-7 source-details">
-            <p> {{read.description|truncate(150)}}
+            <p> {{cat.description|truncate(150)}}
                 <br>
-                <a href="/articles/{{read.id}}">See articles</a>
+                <a href="/articles/{{cat.id}}">view articles</a>
             
             </p>            
         </div>
