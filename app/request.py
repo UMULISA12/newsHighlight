@@ -37,10 +37,8 @@ def get_sources(category):
 def process_sources(sources_list):
     '''
     Function  that processes the movie result and transform them to a list of Objects
-
     Args:
         sources_list: A list of dictionaries that contain movie details
-
     Returns :
         sources_results: A list of movie objects
     '''
