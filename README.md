@@ -7,23 +7,29 @@ This is a flask webapp that retrieves data from the news api and this enables a 
 
 ## Setup/Installation Requirements
 Internet
+
 +A connected device
+
 +A browser
+
 +Python
+
 +Flask
+
 +The news Api_key
+
 A virtual environment
 
 ## Technologies used
 Flask
 
-+Python
+Python
 
-+Flask-script
+flask-script
 
-+Flask-Bootstrap
+Flask-Bootstrap
 
-+CSS
+CSS
 
 HTML
 
