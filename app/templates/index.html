@@ -1,6 +1,7 @@
-
 {% extends 'base.html'%}
 {% import 'macros.html' as macro%}
+
+
 
 <!DOCTYPE html>
 <html>
@@ -9,16 +10,14 @@
         <title> {{ title }}</title>
         {% else %}
         <title> Welcome to the Breaking news updates </title>
-        {% endif %} 
- <!-- Styles block -->
-{% block styles%}
-{{ super() }}
-<link rel="stylesheet" href="{{url_for('static',filename='CSS/index.css')}}">
-{% endblock %}
-<!-- Content block -->
+        {% endif %}
+        <!--Styles block -->
+    {% block styles%}
+        {{ super() }}
+        <link rel="stylesheet" href="{{url_for('static',filename='css/index.css')}}">
+    {% endblock %} 
 </head>
 <body>
- 
     <div class="jumbotron">
         <h1>News Highlight</h1>
         <h3>{{title}}</h3>
@@ -62,21 +61,21 @@
       
       <div class="row up">
           <div class="col-md-12 categories">
-              <h2>Technology news</h2>
+              <h2>About Technology</h2>
           </div>
           {{macro.displaySources(technology)}}
       </div>
       
       <div class="row up">
           <div class="col-md-12 categories">
-              <h2>Sciences news</h2>
+              <h2>Sciences</h2>
           </div>
           {{macro.displaySources(science)}}
       </div>
   
       <div class="row up">
           <div class="col-md-12 categories">
-              <h2>Health news</h2>
+              <h2>Health</h2>
           </div>
           {{macro.displaySources(health)}}
       </div>
