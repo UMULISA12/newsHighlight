@@ -8,15 +8,15 @@ This is a flask webapp that retrieves data from the news api and this enables a 
 ## Setup/Installation Requirements
 Internet
 
-+A connected device
+A connected device
 
-+A browser
+A browser
 
-+Python
+Python
 
-+Flask
+Flask
 
-+The news Api_key
+The news Api_key
 
 A virtual environment
 

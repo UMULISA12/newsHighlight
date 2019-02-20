@@ -1,5 +1,5 @@
 body{
-    background-image: url("https://www.worshipbackgroundsforfree.com/wp-content/uploads/2012/12/Screen-Shot-2012-12-20-at-11.14.22-AM.png");
+    background-color: khaki;
     /* background-repeat: no-repeat; */
     background-size: contain;
 }
@@ -7,4 +7,76 @@ body{
 .header{
     text-align: center;
     border: 2px solid beige;
+    font-weight: bold;
+    background-color: rgb(58, 99, 85);
+    color: aliceblue;
+    height: 70px;
+    font-size: 50px;
+    
 }
+h2{
+    font-weight: bold;
+    text-align: center;
+    color: rgb(58, 99, 85);
+
+}
+a{
+    color:rgb(58, 99, 85); 
+}
+
+.content{
+    padding: 20px;
+}
+
+h2{
+    font-size: 30px;
+  }
+  h1{
+    font-size: 30px;
+  }
+  .panel{
+    height: 245px;
+    width:400px;
+  
+    color: white;
+  
+    border: 5px;
+    padding: 8px;
+    background-color: black;
+    background-color: rgba(0,0,0, 0.8);
+  
+  }
+  p{
+    font-size: 15px;
+  }
+  #header{
+    color:white;
+    text-decoration: underline;
+    font-size: 25px;
+  }
+  .jumbotron {
+      margin-top: 0px;
+      margin-bottom: 0px;
+      height:140px;
+      width: 550px;
+      margin: auto;
+  
+      background-position: 20% 56%;
+      background-color: black;
+      background-size: cover;
+      background-repeat: no-repeat;
+      color: white;
+      text-shadow: black 0.9em 0.9em 0.9em;
+  
+  }
+  body{
+    /* The image used */
+    background-image: url("vintage.jpg");
+    /* Set a specific height */
+    /* height:800px; */
+    /* Position and center the image to scale nicely on all screens */
+    /* background-position:center;
+    background-repeat:repeat;
+    background-size:cover;
+    position:relative; */
+  }

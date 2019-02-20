@@ -27,20 +27,22 @@
   <div class="container-fluid">
       <div class="row">
           <div class="col-md-12 heading">
-              <h1 class="header">News Highlights</h1>
+              <h1 class="header">Welcome to news Highlights</h1>
           </div>
       </div>
-      
+      <div class="container">
       <div class="row up">
-          <div class="col-md-12 categories">
+          <!-- <div class="col-md-12 categories"> -->
               <h2>General News</h2>
-          </div>
+              <br>
+          <!-- </div> -->
           {{macro.displaySources(general)}}
       </div>
       
       <div class="row up" >
           <div class="col-md-12 categories">
               <h2 >Business News</h2>
+              <br>
           </div>
           {{macro.displaySources(business)}}
       </div>
@@ -48,6 +50,7 @@
       <div class="row up">
           <div class="col-md-12 categories">
               <h2>Entertainment News</h2>
+              <br>
           </div>
           {{macro.displaySources(entertainment)}}
       </div>
@@ -55,31 +58,36 @@
       <div class="row up">
           <div class="col-md-12 categories">
               <h2>Sports News</h2>
+              <br>
           </div>
           {{macro.displaySources(sports)}}
       </div>
       
       <div class="row up">
           <div class="col-md-12 categories">
-              <h2>About Technology</h2>
+              <h2>Technology news</h2>
+              <br>
           </div>
           {{macro.displaySources(technology)}}
       </div>
       
       <div class="row up">
           <div class="col-md-12 categories">
-              <h2>Sciences</h2>
+              <h2>Sciences news</h2>
+              <br>
           </div>
           {{macro.displaySources(science)}}
       </div>
   
       <div class="row up">
           <div class="col-md-12 categories">
-              <h2>Health</h2>
+              <h2>Health news</h2>
           </div>
+          <br>
           {{macro.displaySources(health)}}
       </div>
   </div>
+</div>
   {% endblock%}   
 </body>
 </html>
