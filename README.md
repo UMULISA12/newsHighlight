@@ -20,6 +20,8 @@ The news Api_key
 
 A virtual environment
 
+Live site can be accessed from the following link https://newshighlightalice.herokuapp.com/
+
 ## Technologies used
 Flask
 
